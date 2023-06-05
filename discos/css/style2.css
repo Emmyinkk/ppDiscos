@@ -1,0 +1,333 @@
+/* March 25 changes */
+
+a + .absent {background: white; border-radius: 10px; position: absolute; display: none; left: 6%;}
+
+a:hover + .absent {display: none;}
+
+.up {display: none}
+
+.coming {position: absolute; color: #FDDB5F; font-size: 10px; right: 33px; top: -5px;}
+
+.coming1 {position: absolute; color: #FDDB5F; font-size: 10px; right: 33px; top: -25px;}
+
+.coming2 {position: absolute; color: #FDDB5F; font-size: 10px; right: 0px; top: -25px;}
+
+.btn-color_change {background: #B1101A; color: white; width: 100%;}
+
+.download {padding: 2em 1em; color: white; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; width: 90%; margin: 0 auto; max-width: 1200px}
+
+.play {font-size: 15px; text-align: left; font-weight: 700; width: 100%; line-height: 15px;}
+
+.flexBtn {display:flex; justify-content: space-between; color: #B1101A; gap: 5px; width: 100%;}
+
+.flexBtnn {display:flex; justify-content: space-between; color: #B1101A; gap: 5px; width: 100%;}
+
+.flexBtnn1 {display:flex; justify-content: center; color: #B1101A; gap: 5px; width: 100%;}
+
+.flexBtn1 {display:flex; justify-content: space-between; color: #B1101A; gap: 5px; align-items: center;}
+
+.flexBtn2 {display:flex; gap: 20px; color: white; gap: 5px; align-items: center;}
+
+.play span {font-size: 10px}
+
+.bg-btn {background: white; padding: .5em; border-radius: 10px; flex-grow: 1; flex-basis: 0;}
+
+.bg-btn1 {background: #B1101A; padding: .5em; border-radius: 10px; flex-grow: 1; flex-basis: 0;}
+
+
+/* REASON */
+
+.reason, .providers, .help {width: 90%; margin:0 auto; max-width: 1200px; padding: 90px 1em}
+
+.mainP {position: relative}
+
+.mainP p {color: #2A3855; font-weight: 700; font-size: 28px; text-align: center;}
+
+.remove {display: none;}
+
+.flexInfo1 img {width: 100px; height: 100px; margin: 3em 0em 1.5em 0em;}
+
+.explain {margin: 2em 0em; text-align: justify;}
+
+.headng {color: #2A3855; font-weight: 700;}
+
+/* REASON */
+
+
+/* PROVIDERS */
+
+.flexImg {display: flex; margin: 0 auto; flex-wrap: wrap;}
+
+.flexImg img { width: 20%; height: 50px;}
+
+/* PROVIDERS */
+
+/* HELP */
+
+.flexHelp {display: flex; justify-content: space-between; align-items: center; gap: 10px;}
+
+.flexHelp1 {display: flex; gap: 30px; justify-content: center; align-items: center;}
+
+.helpImg {display: none;}
+
+.paint {background: #B1101A; color: white; padding: .5em; border-radius: 5px; font-weight: 700; font-size: 12px; line-height: 131.19%; text-align: left; margin: 1em 0em .5em 0em;}
+
+.paint:hover {color: white;}
+
+.linkk {margin-bottom: 2em;}
+
+.nHelp {font-weight: 600; font-size: 25px; line-height: 61px; color: #2A3855; margin-bottom: 0em}
+
+.benefit {font-weight: 500; font-size: 17px; line-height: 36px; color: #5E6E82; text-align: justify;}
+
+.paint {font-size: 14px;}
+
+/* HELP */
+
+.downloadN {display: flex; flex-wrap: wrap; justify-content: space-between; width: 90%; margin: 0 auto; max-width: 1200px}
+
+.appImg {margin: 0 auto;}
+
+.appImg img{width: 300px; height: auto;}
+
+.dPma {font-weight: 700; font-size: 25px; line-height: 140%; letter-spacing: 0.05em; color: #2A3855;}
+
+.linner {width: 100%; height: 1px; background: rgb(159, 153, 153);}
+
+
+
+.sideMenu {position: fixed; top: 0; right: 0; width: 100%; background: #B1101A; height: 100%; z-index: 9999999; display: none;}
+
+.hiddenOne {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; gap: 70px; font-size: 30px;}
+
+.canc {color: white; position: absolute; right: 40px; top: 50px; font-size: 30px;}
+
+.navigation-toggle1 span {width: 20px; height: 2px; display: block; background: white; margin-bottom: .2em;}
+
+
+
+
+/* ABOUT US */
+.navList {display: flex; justify-content: space-between; align-items: center; width: 100%;}
+
+.navArea {width: 90%; margin: 0 auto; max-width: 1200px; padding: 1em 0em; display: flex; gap: 25%; justify-content: space-between; align-items: center;}
+
+.navList {display: none;}
+
+/* .oneFlex {display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;} */
+
+.oneFlex img {width: 100%; height: auto;}
+
+.under {width: 40%; height: 2px; background: #B1101A; margin: 0 auto;}
+
+.under1 {width: 30%; height: 2px; background: #B1101A; margin: 0 auto;}
+
+.mainT {font-weight: 600; font-size: 30px; line-height: 61px; margin-bottom: -.2em;}
+
+.subP {font-weight: 400; font-size: 15px; line-height: 36px;}
+
+.bigg {display: none;}
+
+.chngimg {width: 80%; height: auto; margin: 0 auto;}
+
+.titlee {color: #B1101A; width: 90%; margin: 0 auto; font-weight: 500; font-size: 18px; line-height: 29px; text-align: left;}
+
+.mainImgg{width: 100%; height: auto; margin-bottom: 1em; margin-top: 3em;}
+
+.spaces {width: 90%; margin: 0 auto; max-width: 1200px}
+
+.imggFlex {width: 100%; margin: 0 auto;}
+
+.linkd {color: #FFFFFF; font-weight: 700; font-size: 16px; line-height: 10px; margin-top: .4em}
+
+.botDiv {background: rgba(0, 0, 0, 0.7); border-radius: 0px 0px 13px 13px; position: absolute; bottom: 18px; width: 100%; margin: 0 auto; padding: .5em 0em; height: 20px;}
+
+.botDiv1 {width: 90%; margin: 0 auto; display: flex; justify-content: space-between; align-items: start;}
+
+.linkedin{width: 20px; height: 20px}
+
+.flexHelp12 {display: flex; gap: 30px; justify-content: left; width: 80%; align-items: center;}
+/* ABOUT US */
+
+
+
+
+/* .flImg {display: flex; justify-content: space-between; align-items: center; text-align: center; margin-top: 1em;} */
+
+.flImg {display: grid; gap: .5rem; margin-top: 3em;}
+
+.flImg p{text-align: center; width: 70%; margin: 0 auto;}
+
+.flImg img{width: 100px; margin-top: 2em; margin-bottom: 1em;}
+
+.imgtyp {text-align: center;}
+
+.free {font-weight: 600; font-size: 24px; line-height: 20px; color: #2A3855;}
+
+
+
+.imagees{display: flex; justify-content: space-between; gap: 10px;}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .flImg { grid-template-columns: repeat(3, 1fr); }
+
+    .free {font-size: 34px; margin-bottom: -.2em; line-height: 77px}
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .play {display: flex; flex-wrap: wrap; font-size: 18px; text-align: left; font-weight: 700; width: 70%;}
+
+    .para  {font-weight: 600; font-size: 25px; line-height: 58px; text-align: left;}
+
+    .bg-btn img {margin-right: 1em;}
+
+    /* REASON */
+
+    .flexInfo1 img {margin: 1em 0em}    
+
+    .flexInfo {display: flex; justify-content: space-between; gap: 30px; height: 400px;}
+
+    .flexInfo1 {display: flex; justify-content: space-between; gap: 10px; margin-bottom: 2.1em;}
+
+    .flexInfo1 p {text-align: left; margin-top: .7em;}
+
+    .explain {width: 100%; margin: 0 auto; padding: 2em 0em; text-align: center;}
+     /* REASON */
+
+     /* PROVIDERS */
+
+     .flexImg img { width: 20%; height: 150px;}
+
+     /* PROVIDERS */
+
+    /* HELP */
+    .paint {font-size: 16px;}
+
+    .nHelp {font-size: 30px;}
+
+    
+
+    .benefit {font-size: 20px; text-align: left;}
+
+    .fir {width: 100%;}
+
+     /* HELP */
+
+     .downloadN {flex-wrap: nowrap; justify-content: center; align-items: center;}
+
+     .appImg img{width: 200px; height: auto;}
+
+     /* .appImg, .downOne {flex-grow: 1; flex-basis: 0;} */
+
+
+     .oneFlex {display: flex; justify-content: space-between; gap: 86px; align-items: center;}
+
+     .oneFlex img {width: 40%; height: auto; margin-top: 0em;}
+
+     .mainT {font-size: 40px;}
+
+     .subP {font-size: 20px;}
+
+     .smalll {display: none;}
+
+     .bigg {display: block}
+
+     .imggFlex {display: flex;  align-items: center; flex-wrap: wrap; gap: 40px;}
+
+     .chngimg {width: 20%; height: auto; margin: 0 auto;}
+
+     /* .botDiv {width: 93.7%;} */
+
+     .linkd {font-size: 13px;}
+
+     .flexBtnn1 {display:flex; justify-content: space-between; color: #B1101A; gap: 5px; width: 100%;}
+
+     .new {height: 60px; padding: .5em;}
+
+     .dPma {text-align: left;}
+
+     .flexHelp12 {display: flex; gap: 30px; justify-content: left; width: 60%;}
+
+
+
+
+     .lastFlex {display: flex; justify-content: space-between; align-items: center;}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .navArea {gap: 25%; justify-content: unset;}
+
+    .navList {display: flex;}
+
+    .remove {display: block;}
+
+    .flexInfo1 p {text-align: left; margin-top: .1em;}
+
+    .explain {width: 60%;}
+
+    .flexInfo1 img {margin: .3em 0em}    
+
+    .download {flex-wrap: nowrap;}
+
+    .flexBtn {display:flex; justify-content: space-around; color: #B1101A; gap: 5px; width: 50%; align-items: center;}
+
+    .under {width: 40%; height: 2px; background: #B1101A; margin: 0em; margin-top: .5em}
+
+    /* PROVIDERS */
+
+    .flexImg img { width: 20%; height: 200px;}
+ 
+    /* PROVIDERS */
+
+
+    /* HELP */
+
+    .flexHelp1 {display: flex; gap: 30px; justify-content: left; align-items: center;}
+
+    .helpImg {display: block;}
+
+    .paint {font-size: 20px;}
+
+    .nHelp {font-size: 45px; margin-bottom: .5em;}
+
+    .helpImg {display: block;}
+
+    .benefit {font-weight: 500; font-size: 25px; line-height: 36px; color: #5E6E82;}
+
+    /* HELP */
+
+    .flexBtnn {display:flex; justify-content: space-between; color: #B1101A; gap: 5px; width: 75%;}
+
+    .appImg img{width: 450px; height: auto;}
+
+    .appImg, .downOne {flex-grow: 1; flex-basis: 0;}
+
+    .dPma {font-size: 46.6776px;}
+
+
+
+
+
+
+    .linkd {font-size: 16px;}
+
+    .navList {font-size: 20px;}
+
+
+
+
+
+    .flImg {grid-template-columns: repeat(4, 1fr);}
+
+    .free {font-size: 54px; margin-bottom: .2em;}
+
+    .navigation-toggle1 {display: none;}
+}
+/* March 25 changes */
