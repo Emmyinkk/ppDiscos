@@ -1,0 +1,128 @@
+.hhero {
+    background-image: url(/images/slider-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    padding: 3em 0em;
+}
+
+button {
+    cursor: pointer;
+    background: #B1101A;
+    border: none;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.fllex {
+    text-align: center;
+}
+
+.pur1 {
+    font-size: 14px;
+    color: #B1101A;
+    margin-bottom: 15px;
+}
+
+.pur2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: black;
+}
+
+.pur4 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+.contt {
+    width: 90%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.explainn {
+    text-align: left; 
+    width: 100%; 
+    background: white;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.explainn p {
+    color: black;
+}
+
+form {
+    width: 100%;
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 53px;
+        row-gap: 10px;
+}
+
+input, select {
+    width: 100%;
+    background: white;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    padding: 1em;
+    font-family: inherit;
+}
+
+@media only screen and (min-width: 600px) {
+    .pur1 {
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 25px;
+    }
+    .pur2 {
+        width: 70%;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: .5rem;
+        line-height: 1.2;
+        color: black;
+    }
+
+    form {
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 53px;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .fllex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .imagee {
+        width: 50%;
+    }
+
+    .explainn {
+        text-align: left; 
+        width: 40%; 
+        background: white;
+        padding: 1em;
+        /* margin: 0 auto; */
+    }
+    
+}
