@@ -12,6 +12,21 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="sideMenu">
+        <i onclick="cloos()" class="ri-close-circle-line canc"></i>
+        <div class="hiddenOne">
+            <a class="line" href="https://powerplug.ng/">Home</a>
+            <a class="nav-link scroll line marchantLink"  href="merchant.html">Merchant</a>
+            <div style="position: relative;">
+                <p class="coming2">Coming soon</p>
+                <a class="line" href="#">Developer API</a>
+            </div>
+            <a class="line" style="color: black; padding: 0.5rem 1rem" onclick="location.href='faq'" onclick="closee()"
+                href="https://powerplug.ng/faq/">FAQ</a>
+            <a class="line" href="aboutUs.html">About Us</a>
+        </div>
+    </div>
+    
     <nav style="background: #B4111B;">
         <div class="navArea">
             <img src="images/logo1.png" alt="" width="60px" height="40px">
@@ -216,5 +231,15 @@
             .flexBtn1 img {margin-right: -.4em}
         }
     </style>
+    
+    <script>
+        function openn() {
+            $(".sideMenu").show(200)
+        }
+
+        function cloos() {
+            $(".sideMenu").hide(100)
+        }
+    </script>
 </body>
 </html>
